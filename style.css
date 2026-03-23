@@ -11,18 +11,21 @@ html, body {
     background-color: black;
     color: white;
 }
-body
+
+body{
+    cursor: none;
+}
+
+#main 
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+
+    height: 200%;
+    width: 200%;
 
 }
 
-h1{
-    font-size: 100px;
-    padding: 20px 30px;
-    background-color: rgb(78, 83, 87);
-    border-radius: 10px;
+img{
+    height: 50px;
+    position: fixed;
+    transform: translate(-50%,-50%);
 }
