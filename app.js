@@ -1,10 +1,7 @@
-var box =  document.querySelector("#box");
+var main =  document.querySelector("#main");
 
 
-box.addEventListener("mouseenter", ()=>{
-    console.log("Enter in the eraaa");
-})
-
-box.addEventListener("mouseleave", ()=>{
-    console.log("leave the eraa");
+main.addEventListener("mousemove", (dets)=>
+{
+    console.log(dets.y);
 })
