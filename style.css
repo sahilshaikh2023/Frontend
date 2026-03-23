@@ -11,11 +11,18 @@ html, body {
     background-color: black;
     color: white;
 }
-
-#main {
-
-    height: 100%;
-    width: 100% ;
-    background-color: rgb(57, 57, 57);
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+
+}
+
+h1{
+    font-size: 100px;
+    padding: 20px 30px;
+    background-color: rgb(78, 83, 87);
+    border-radius: 10px;
 }

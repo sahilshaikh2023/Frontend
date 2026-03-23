@@ -1,7 +1,7 @@
-var main =  document.querySelector("#main");
+var h1 = document.querySelector("h1");
 
 
-main.addEventListener("mousemove", (dets)=>
+document.body.addEventListener("keydown", (dets)=>
 {
-    console.log(dets.y);
+    h1.innerHTML = dets.code;
 })
