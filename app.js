@@ -1,13 +1,10 @@
-var main = document.querySelector("#main");
-var cursor = document.querySelector("img");
+var aud  = new Audio("./faaah.mp3");
 
 
-main.addEventListener("mousemove" , (dets)=>{
+var h1 = document.querySelector("h1");
 
-   cursor.style.left = dets.x + "px";
-   cursor.style.top = dets.y + "px" ;
-    
+h1.addEventListener("click", ()=>{
 
-    
-    
+    console.log("hi");
+    aud.play();
 })
