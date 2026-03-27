@@ -1,10 +1,24 @@
-var aud  = new Audio("./faaah.mp3");
+var allbtn = document.querySelectorAll("button");
 
 
-var h1 = document.querySelector("h1");
+allbtn.forEach(function(elem)
+{
+       elem.addEventListener("click",function(){
+              if (elem.innerHTML=="Add Friend")
+              {
+                     elem.innerHTML = "Remove Friend";
+              }  
+                     
+              else{
 
-h1.addEventListener("click", ()=>{
+                     
+                     elem.innerHTML = "Add Friend";
+              }
+       
+       } )
 
-    console.log("hi");
-    aud.play();
-})
+
+
+}
+)
+       

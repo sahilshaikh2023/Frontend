@@ -13,17 +13,49 @@ html, body {
 }
 
 body{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+#main
+{
+       background-color: black;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+       height: 100%;
+       width: 100%;
+       padding: 20px;
+       border: 10px;
+
 }
 
+.elem 
 
-h1{
-    padding: 20px 30px;
-    background-color: rgb(255, 0, 0);
-    border-radius: 10px;
+{
+       background-color: #333;
 
+       padding: 50px;
+       ;
+       display:  flex;
+       align-items: center;
+       justify-content: center;
+
+
+
+
+}
+.elem h3 {
+       color: white;
+       font-size: 30px;
+       padding: 10px;
+
+}
+.elem button
+{
+       background-color: blue;
+       padding: 10px 8px ;
+       border: solid black 0.5;
+        border-radius:  10px ;
+        color:  white;
+        font-size: 24px;
+        margin: 10px;
 }
